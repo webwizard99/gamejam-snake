@@ -1,0 +1,27 @@
+#snake-board {
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  margin: 0px;
+}
+
+.tile {
+  height: 1rem;
+  width: 1rem;
+  background: rgb(250, 252, 254);
+}
+
+.snakeTile {
+  height: 100%;
+  width: 100%;
+  background: rgb(170, 150, 10)
+}
+
+.appleTile {
+  height: 70%;
+  width: 70%;
+  border-radius: .5rem;
+  background: rgb(200, 30, 20);
+}
